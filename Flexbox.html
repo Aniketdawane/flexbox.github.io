@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Flex baox</title>
+   <style>
+      * {
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+
+      }
+
+      body {
+         background-color: rgb(75, 122, 122);
+      }
+
+      .navbar {
+         background-color: darkslategray;
+         height: 10vh;
+         border: 1px solid white;
+         border-radius: 50 px;
+      }
+
+      .nav-list {
+         height: 10vh;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-wrap: wrap;
+      }
+
+      .nav-list li {
+         border: 1px solid rgb(159, 29, 29);
+         padding: 4px;
+         border-radius: 2px;
+         list-style: none;
+         margin-left: 5rem;
+         border: 2px solid white;
+         color: beige;
+         transition: all ease 0.8s;
+
+      }
+
+      .nav-list li:hover {
+
+         background-color: rgb(183, 225, 225);
+         color: black;
+         cursor: pointer;
+         font-weight: bold;
+      }
+   </style>
+</head>
+
+<body>
+
+   <div class="navbar">
+      <ul class="nav-list">
+         <li>Home</li>
+         <li>login</li>
+         <li>Contact</li>
+         <li>About</li>
+      </ul>
+      <ul>
+         <li>,,</li>
+         <li>login</li>
+         <li>cart</li>
+         <li>logo</li>
+      </ul>
+
+
+   </div>
+
+</body>
+
+</html>
